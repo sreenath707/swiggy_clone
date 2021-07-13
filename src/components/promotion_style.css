@@ -1,0 +1,37 @@
+.promotion_card{
+    height : 340px;
+    background-color: #171a29;
+    padding : 0 130px;
+    display : flex;
+    align-items: flex-start;
+}
+.promotional_image{
+    height: 250px;
+    width : 250px;
+    transition : width 400ms, height 400ms;
+    margin-top: 13%;
+    border-radius: 1%;
+}
+
+.promotional_image:hover{
+    height : 260px;
+    width : 260px;
+}
+
+
+
+.slick-prev {
+    left: 6.5%;
+    z-index: 1;
+    top :50%;
+}
+  .slick-next {
+    right: 13%;
+    z-index: 1;
+}
+
+.slick-prev::before, .slick-next::before{
+    color : white;
+    font-size: 50px;
+    opacity : 100;
+}

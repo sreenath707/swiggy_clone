@@ -1,0 +1,18 @@
+#nav_bar{
+    height: 70px;
+    padding : 0 200px;
+}
+
+#logo{
+    max-height: 55px;
+}
+
+#nav_body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-body-element{
+    padding : 0 30px;
+}
